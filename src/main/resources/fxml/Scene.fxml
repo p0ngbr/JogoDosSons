@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+
+<AnchorPane id="AnchorPane" prefHeight="498.0" prefWidth="1160.0" style="-fx-background-color: #e5f1ff;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <ImageView fitHeight="637.0" fitWidth="1160.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fundo.png" />
+         </image>
+      </ImageView>
+      <Ellipse fill="#19b5fe" layoutX="145.0" layoutY="344.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#19b5fe" layoutX="435.0" layoutY="344.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#19b5fe" layoutX="725.0" layoutY="344.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#19b5fe" layoutX="1015.0" layoutY="344.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#19b5fe" layoutX="150.0" layoutY="158.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#19b5fe" layoutX="440.0" layoutY="158.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#19b5fe" layoutX="730.0" layoutY="158.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#19b5fe" layoutX="1020.0" layoutY="158.0" opacity="0.8" radiusX="125.0" radiusY="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <ImageView fx:id="balaoAnimal1" disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/cachorro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoAnimal2" disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="369.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/porco.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoAnimal3" disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="662.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/peru.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoAnimal4" disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="952.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/vaca.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoSom1" fitHeight="112.0" fitWidth="100.0" layoutX="95.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoSom2" fitHeight="112.0" fitWidth="100.0" layoutX="390.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoSom3" fitHeight="112.0" fitWidth="100.0" layoutX="680.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balaoSom4" fitHeight="112.0" fitWidth="100.0" layoutX="965.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/play.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
