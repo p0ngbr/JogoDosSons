@@ -7,7 +7,8 @@ o animal ao qual o som pertence.
 
 ## Authors
 
-* **Henrique Dreyer** - [GitHub](https://github.com/HenriqueDreyer)
+* **Heitor Borba**
+* **Henrique Dreyer**
 * **Renato Santos**
 * **Nathália Bártholo**
 * **Victor Queiroga**
