@@ -24,4 +24,8 @@ public class HibernateUtil {
         }
         return ourSessionFactory.openSession();
     }
+
+    public static void shutdown(){
+        ourSessionFactory.close();
+    }
 }

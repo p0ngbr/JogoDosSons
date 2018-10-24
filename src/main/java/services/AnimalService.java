@@ -15,7 +15,7 @@ public class AnimalService {
         Session session = HibernateUtil.getSession();
         Query query = session.createQuery("from Animal ");
 
-        session.close();
+        //session.close();
         return query.list();
     }
 }

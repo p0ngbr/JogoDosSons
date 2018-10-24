@@ -1,3 +1,4 @@
+import dao.HibernateUtil;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -19,5 +20,11 @@ public class Main extends Application {
         primaryStage.setTitle("Jogo dos Sons");
         primaryStage.setScene(scene);
         primaryStage.show();
+    }
+
+    @Override
+    public void stop() throws Exception {
+        super.stop();
+        HibernateUtil.shutdown();
     }
 }
